@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Ignorar archivos de configuración específicos
 /base/*.txt
 /preview/*.jpg
 /README-template/*.md
 /style-guide/*.md
+=======
+# Base BRK
+base.txt
+preview.jpg
+README-template.md
+style-guide.md
+>>>>>>> main
 
 # Logs
 logs
