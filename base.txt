@@ -1,0 +1,127 @@
+/*--------------------------------------------------------------
+# VARIABLES CSS
+--------------------------------------------------------------*/
+:root {
+    --header-height: 80px;
+
+    /* BREAKPOINTS */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+    /* COLORS */
+    --background-color: #;
+    --btn-color: #;
+    --primary-color: #;
+    --secondary-color: #;
+    --white-color: #fff;
+
+    /* FONT SIZE */
+    /* 5rem = 8px  |  1rem = 16px */
+    --fontsize-a: ;
+    --fontsize-h1: ;
+    --fontsize-h2: ;
+    --fontsize-h3: ;
+    --fontsize-h4: ;
+    --fontsize-paragraph: ;
+
+    /* FONT WEIGHT */
+    --fontweight-a: ;
+    --fontweight-h1: ;
+    --fontweight-h2: ;
+    --fontweight-h3: ;
+    --fontweight-h4: ;
+    --fontweight-paragraph: ;
+
+    /* LINE HEIGHT */
+    --lineheight-h1: ;
+    --lineheight-h2: ;
+    --lineheight-h3: ;
+    --lineheight-paragraph: ;
+
+    /* PADDING SECTION */
+    --padding-primary: ;
+
+    /* TYPOGRAPHY */
+    --ffamily-main: "Montserrat", sans-serif;
+    --ffamily-secundary: "Montserrat", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# BASE CSS
+--------------------------------------------------------------*/
+* {
+    padding: ;
+    margin: ;
+    box-sizing: ;
+}
+
+/*--------------------------------------------------------------
+# PREDEFINE STYLES
+--------------------------------------------------------------*/
+a {
+    text-decoration: ;
+}
+
+ol,ul {
+    list-style: ;
+}
+
+h1 {
+    color: ;
+    font-weight: ;
+    font-size: ;
+    line-height: ;
+}
+
+h2 {
+    color: ;
+    font-size: ;
+    line-height: ;
+    font-weight: ;
+}
+
+h3 {
+    color: ;
+    font-size: ;    
+    line-height: ;
+}
+
+h4 {
+    font-size: ;
+    font-weight: ;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-size: var(--fontsize-paragraph);    
+    line-height: var(--line-paragraph);
+}
+
+.btn-primary {
+    background-color:;
+    border-radius: ;
+    box-shadow: 1px 0.1rem 0.5rem 0px rgb(60 60 60 / 39%);
+    color: ;
+    height: fit-content; /* para que use solo el alto utilizado */
+    width: fit-content; /* para que use solo el ancho utilizado */
+    display: ;
+    padding: ;
+}
+
+/*--------------------------------------------------------------
+# TIPS:
+--------------------------------------------------------------*/
+/* HOVER EFFECT */
+& .nav-links:not(is(hover, active)) {
+    text-decoration: none;
+}
+# probar cuando tengamos paginas dentro de "HOME" "SERVICES" entre otros la funcion es cuando no este en hover o activa se aplica text-decoration none. y si se cumple y estan en hover o active se muestra underline.
+
+/* CONTAINER SECTION */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
